@@ -1,8 +1,10 @@
-# Getting Started with Create React App
+# 🎥 Video Cropper
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a video cropping tool built with React. It allows users to crop videos, adjust playback speed, and preview the cropped video. The project includes two versions of the video editor: V1 and V2.
 
-## Available Scripts
+## 📁 Project Structure
+
+## 🚀 Available Scripts
 
 In the project directory, you can run:
 
@@ -39,7 +41,7 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## 📚 Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
@@ -68,3 +70,49 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## 🛠️ Components
+
+### `App.js`
+
+The main component that toggles between V1 and V2 editors.
+
+### `VideoFlipEditorV1`
+
+The first version of the video editor.
+
+### `VideoFlipEditorV2`
+
+The second version of the video editor.
+
+### `video-player.js`
+
+Handles video playback and cropper functionality.
+
+### `video-controls.js`
+
+Provides controls for video playback, volume, and playback rate.
+
+### `cropper-controls.js`
+
+Allows users to adjust the playback rate and aspect ratio of the cropper.
+
+### `preview-panel.js`
+
+Displays a preview of the cropped video.
+
+### `session-controls.js`
+
+Provides controls to start/stop the cropper and generate/download the preview data.
+
+## 🎨 Styling
+
+The project uses Tailwind CSS for styling. The configuration can be found in `tailwind.config.js`.
+
+## 📊 Data
+
+The crop data is stored in `video-crop-data.json`.
+
+## 📄 License
+
+This project is licensed under the MIT License.
