@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/videoverse-task/static/css/main.1c673ca8.css",
+    "main.js": "/videoverse-task/static/js/main.91e6536a.js",
+    "index.html": "/videoverse-task/index.html",
+    "main.1c673ca8.css.map": "/videoverse-task/static/css/main.1c673ca8.css.map",
+    "main.91e6536a.js.map": "/videoverse-task/static/js/main.91e6536a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1c673ca8.css",
+    "static/js/main.91e6536a.js"
+  ]
+}
